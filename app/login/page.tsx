@@ -74,10 +74,7 @@ export default function LoginPage() {
                         Sign in
                     </button>
                 </form>
-                <div className="text-center text-sm text-gray-500">
-                    Try <b>admin@example.com</b> or <b>user@example.com</b> <br />
-                    Password: <b>password123</b>
-                </div>
+
                 <div className="text-center text-sm text-gray-500 mt-4">
                     Don't have an account? <Link href="/register" className="text-indigo-600 hover:text-indigo-500">Register</Link>
                 </div>
